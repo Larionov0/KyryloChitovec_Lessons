@@ -1,0 +1,175 @@
+{
+    "hero": {
+        "type": "мисливець",
+        "face": "\u001b[32m\u001b[1m+\u001b[0m",
+        "hp": 97,
+        "max_hp": 100,
+        "coords": [
+            9,
+            9
+        ],
+        "details": 25,
+        "main_weapon": {
+            "type": "slingshot",
+            "name": "Base slingshot",
+            "damage": 2,
+            "range": 3,
+            "price": 15
+        },
+        "inventory": {
+            "weapons": [
+                {
+                    "type": "slingshot",
+                    "name": "Base slingshot",
+                    "damage": 2,
+                    "range": 3,
+                    "price": 15
+                }
+            ],
+            "ammo": {
+                "arrows": 10,
+                "rocks": 6
+            }
+        }
+    },
+    "animals": [
+        {
+            "type": "заєць",
+            "name": "Дуб",
+            "face": "z",
+            "targeted_face": "Z",
+            "hp": 2,
+            "coords": [
+                3,
+                14
+            ],
+            "radius": 4
+        },
+        {
+            "type": "заєць",
+            "name": "Олекса",
+            "face": "z",
+            "targeted_face": "Z",
+            "hp": 2,
+            "coords": [
+                5,
+                11
+            ],
+            "radius": 4
+        },
+        {
+            "type": "заєць",
+            "name": "Олекса",
+            "face": "z",
+            "targeted_face": "Z",
+            "hp": 2,
+            "coords": [
+                2,
+                0
+            ],
+            "radius": 6
+        },
+        {
+            "type": "курка",
+            "name": "Katia",
+            "face": "k",
+            "targeted_face": "₭",
+            "hp": 3,
+            "coords": [
+                15,
+                12
+            ]
+        },
+        {
+            "type": "курка",
+            "name": "Kyrylo",
+            "face": "k",
+            "targeted_face": "₭",
+            "hp": 3,
+            "coords": [
+                17,
+                12
+            ]
+        },
+        {
+            "type": "заєць",
+            "name": "Олекса",
+            "face": "z",
+            "targeted_face": "Z",
+            "hp": 2,
+            "coords": [
+                5,
+                9
+            ],
+            "radius": 4
+        },
+        {
+            "type": "курка",
+            "name": "Masha",
+            "face": "k",
+            "targeted_face": "₭",
+            "hp": 3,
+            "coords": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "заєць",
+            "name": "Дуб",
+            "face": "z",
+            "targeted_face": "Z",
+            "hp": 2,
+            "coords": [
+                3,
+                12
+            ],
+            "radius": 4
+        },
+        {
+            "type": "курка",
+            "name": "Kyrylo",
+            "face": "k",
+            "targeted_face": "₭",
+            "hp": 3,
+            "coords": [
+                12,
+                0
+            ]
+        },
+        {
+            "type": "курка",
+            "name": "Ryaba",
+            "face": "k",
+            "targeted_face": "₭",
+            "hp": 3,
+            "coords": [
+                9,
+                17
+            ]
+        },
+        {
+            "type": "заєць",
+            "name": "Олекса",
+            "face": "z",
+            "targeted_face": "Z",
+            "hp": 2,
+            "coords": [
+                17,
+                2
+            ],
+            "radius": 4
+        }
+    ],
+    "things": [],
+    "trader": {
+        "name": "Bob",
+        "coords": [
+            17,
+            17
+        ],
+        "face": "\u001b[1m\u001b[33m$\u001b[0m",
+        "visible": false,
+        "life_cycle": 7
+    }
+}
